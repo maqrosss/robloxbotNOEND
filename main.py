@@ -128,7 +128,7 @@ async def answer(message: types.Message):
         await asyncio.sleep(2)
         await bot.delete_message(dels.chat.id, dels.message_id)
     except:
-        await message.reply("Error брат")
+        pass
     
 @dp.callback_query_handler(lambda c: c.data == "changecookie")
 async def changecookie(callback_query: types.CallbackQuery):
