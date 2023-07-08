@@ -13,7 +13,7 @@ import aiohttp
 
 help_chat = -919023328
 
-bot = Bot(token='5843422546:AAEzI0mp90UjdEJb-7kc0TXQsWKAnIonQwk')
+bot = Bot(token='token')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
